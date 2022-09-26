@@ -29,9 +29,9 @@ daysInBudget(20000, 89);
 
 ## 3. Calculate the discounted rate for large projects
 
-Often, the freelancer's clients hire them for projects spanning over multiple months.
-In these cases, the freelancer decides to offer a discount for every full month, and the remaining days are billed at day rate.
-**_Every month has 22 billable days._**
+For projects spanning over multiple months, the freelancer offers a special deal.
+A discount is applied to each full month, however the remaining days are billed at the standard day rate.
+**_Each month contains 22 work days._**
 Help them estimate their cost for such projects, given an hourly rate, the number of days the project spans, and a monthly discount rate.
 The discount is always passed as a number, where `42%` becomes `0.42`. The result _must_ be **rounded up** to the nearest whole number.
 
